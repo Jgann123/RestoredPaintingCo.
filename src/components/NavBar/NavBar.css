@@ -1,0 +1,31 @@
+.header {
+    margin-top: -80px;
+    margin-bottom: 150px;
+    background-color: rgb(189, 189, 189);
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    font-size: 1.2rem;
+    box-shadow: 8px 8px 4px -4px rgb(83, 83, 83);
+   
+}
+
+
+.ul {
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(0, 0, 0);
+    margin-right: 100px;
+
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.ul2 {
+    display: flex;
+    width: 500px;
+    justify-content: flex-end;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+}

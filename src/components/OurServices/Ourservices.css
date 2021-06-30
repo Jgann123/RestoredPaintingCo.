@@ -1,0 +1,45 @@
+#services_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    margin-left: 27%;
+    margin-right: 10px;
+}
+
+.service_cards{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 300px;
+    margin-right: 30px;
+}
+
+
+.cards{
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    transition: all .3s linear;
+    border-color: rgb(212, 212, 212);
+    box-shadow: 2px 2px 2px 1px rgba(150, 150, 150, 0.2);
+    
+}
+
+.cards:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.img{
+    color: grey;
+}
